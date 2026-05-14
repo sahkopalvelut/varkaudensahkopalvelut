@@ -1,0 +1,17 @@
+/* Logo */
+.logo {
+  width: 120px;        /* Säädä haluamasi koko */
+  margin-bottom: 20px; /* Etäisyys otsikon ylä-/alapuolelle */
+}
+
+/* Hero-kuva */
+.hero-image {
+  width: 100%;          /* Kuva venyy koko näytön leveydelle */
+  max-width: 900px;     /* Estää liian suuren koon isolla näytöllä */
+  margin-top: 30px;     /* Etäisyys tekstin alapuolelle */
+  border-radius: 12px;  /* Pyöristetyt reunat */
+  object-fit: cover;    /* Leikkaa/venyttää kuvaa kauniisti laatikkoon */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;   /* Keskittää kuvan sivulle */
+}
